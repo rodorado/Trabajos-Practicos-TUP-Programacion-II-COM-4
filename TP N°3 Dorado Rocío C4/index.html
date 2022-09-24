@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/account.png" />
+
+    <title>Curriculum Vitae Online Gratis</title>
+  </head>
+  <body>
+    <header>
+      <h1>Curriculum Vitae Online Gratis</h1>
+      <hr />
+    </header>
+    <main>
+      <h2>Información personal</h2>
+      <form>
+        <label for="nombre"> Nombre</label>
+        <input type="text" id="nombre" />
+        <label for="apellido"> Apellido</label>
+        <input type="text" id="apellido" />
+        <br />
+        <br />
+
+        <label for="email"> Correo electrónico</label>
+        <input type="email" />
+        <label for="phone">Teléfono</label>
+        <input type="phone" />
+
+        <br />
+        <br />
+
+        <label for="fechaNac">Fecha de nacimiento</label>
+        <input type="date" id="fechaNac" />
+
+        <br />
+        <br />
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" /><span>Masculino</span>
+        <input type="radio" name="sexo" /><span>Femenino</span>
+        <input type="radio" name="sexo" /><span>No informa</span>
+
+        <br />
+        <br />
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+          <option value="Argentina">Argentina</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Peru">Peru</option>
+        </select>
+        <br />
+        <br />
+        <label for="provincia"> Provincia</label>
+        <input type="text" id="provincia" />
+        <label for="dirección"> Dirección</label>
+        <input type="text" id="dirección" />
+        <label for="cp"> Código Postal</label>
+        <input type="text" id="cp" />
+        <br />
+        <br />
+      </form>
+      <h2>Ocupación</h2>
+      <form>
+        <label for="dedicación"> Me dedico a: </label>
+        <input type="text" id="dedicación" />
+        <br />
+        <br />
+        <label for="dedicación1">Trabajé en: </label>
+        <input type="text" id="dedicación1" />
+        <br />
+        <br />
+        <label for="referencia"> Coloque un número de referencia</label>
+        <input type="phone" id="referencia" />
+        <br />
+        <br />
+        <textarea name="comentarios" rows="10" cols="40">
+Escriba aquí alguna información adicional</textarea
+        >
+      </form>
+      <br />
+      <br />
+      <h3>¡Coloque una imagen suya!</h3>
+      <form>
+        Elija el archivo
+        <input type="file" name="archivo" />
+        <br />
+        <br />
+        <input type="submit" value="enviar" /><br />
+      </form>
+    </main>
+    <footer>
+        <hr>
+        <h4>&#169Todos los derechos reservados</h4>
+        <hr>
+    </footer>
+  </body>
+</html>
