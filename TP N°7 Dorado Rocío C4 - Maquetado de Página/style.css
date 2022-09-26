@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3a3d47;
+  }
+
+  /*MENÚ DE REDES*/
+
+.menu_redes {
+    position: relative;
+    left: 70px;
+    margin-bottom: 16px;
+    width: 1200px;
+    height: 90px;
+    background-color: #1551a1;
+  }
+
+.menu_redes img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.menu_redes ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu_redes ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 35px;
+    left: 250px;
+    padding: 19px;
+    font-size: 11px;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    width: 80px;
+    height:40px;
+   
+  }
+
+  .cuerpo_portada img{
+    position: relative;
+    left: 70px;
+    bottom: 16px;
+    width: 1200px;
+  }
+
+  /*CONTAINER*/
+
+  .container{
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+  }
+
+  .container h1{
+    color:  #ff7600;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+
+  }
+
+  /*CAJAS*/
+
+  .container .box{
+    display: inline-block;
+    width: 284px;
+    height: 421px;
+    border: 2px solid;
+    background-color: #1551a1;
+
+  }
+
+  /*CAJA 1*/
+
+  #uno{
+    position: absolute;
+    left: 70px;
+    top: 100px;
+  }
+
+  #uno img{
+    width: 281px;
+    height: 421;
+  }
+
+  #uno span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  }
+
+  #uno p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    left: 8px;
+    right: 8px;
+  }
+
+  #uno .fondo{
+    background-color: white;
+    height: 193px;
+    position: relative;
+    top: 20px;
+  }
+
+  #uno .boton{
+    height: 40px;
+    width: 80px;
+    background-color: #1551a1;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    border-radius: 5px;
+
+  }
+
+  #uno .boton span{
+    font-size: 10px;
+  }
+
+  /*CAJA 2*/
+
+  #dos{
+    position: absolute;
+    left: 460px;
+    top: 100px;
+  }
+
+  #dos img{
+    width: 281px;
+    height: 421;
+  }
+
+  #dos span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  }
+
+  #dos p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    left: 8px;
+    right: 8px;
+  }
+
+  #dos .fondo{
+    background-color: white;
+    height: 193px;
+    position: relative;
+    top: 20px;
+  }
+
+  #dos .boton{
+    height: 40px;
+    width: 80px;
+    background-color: #1551a1;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    border-radius: 5px;
+
+  }
+
+  #dos .boton span{
+    font-size: 10px;
+  }
+
+  /*CAJA 3*/
+
+  #tres{
+    position: absolute;
+    left: 850px;
+    top: 100px;
+  }
+
+  #tres img{
+    width: 281px;
+    height: 421;
+  }
+
+  #tres span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  }
+
+  #tres p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    left: 8px;
+    right: 8px;
+  }
+
+  #tres .fondo{
+    background-color: white;
+    height: 193px;
+    position: relative;
+    top: 20px;
+  }
+
+  #tres .boton{
+    height: 40px;
+    width: 80px;
+    background-color: #1551a1;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    border-radius: 5px;
+
+  }
+
+  #tres .boton span{
+    font-size: 10px;
+  }
+
+  /*FOOTER*/
+
+  footer{
+    width: 1200px;
+    height: 150px;
+    background-color: #062348;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+  }
+
+  footer img{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    width: 200px;
+  }
+  
+  footer .redes img{
+    width: 40px;
+    position: relative;
+    left: 750px;
+    top: 30px;
+  }
+
+  footer span{
+    position: relative;
+    left: 600px;
+    top: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  footer p{
+    font-size: 10px;
+    color: white;
+    position: relative;
+    left: 35px;
+  }

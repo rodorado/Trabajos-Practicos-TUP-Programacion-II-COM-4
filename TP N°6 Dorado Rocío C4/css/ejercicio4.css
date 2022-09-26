@@ -1,0 +1,21 @@
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: rosybrown;
+  }
+
+  #uno{
+    position: relative;
+    left: 700px;
+  }
+
+  #dos{
+    position: relative;
+    right: 150px;
+  }
+
+  #tres{
+    position: relative;
+    right: 150px;
+  }
