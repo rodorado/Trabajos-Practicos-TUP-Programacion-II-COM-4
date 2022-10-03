@@ -1,0 +1,53 @@
+#caja1{
+    background-color: greenyellow;
+    height: 70px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#caja2{
+    background-color: red;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#con1{
+    border: 2px solid;
+    border-color: gray;
+    background-color: aliceblue;
+}
+
+#caja11{
+    background-color: rosybrown;
+    height: 60px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#caja12{
+    background-color: antiquewhite;
+    height: 280px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#caja13{
+    background-color: blue;
+    height: 100px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#caja14{
+    background-color: blue;
+    height: 100px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+#caja15{
+    background-color: blueviolet;
+    height: 50px;
+    border: 2px solid;
+    border-color: gray;
+}
