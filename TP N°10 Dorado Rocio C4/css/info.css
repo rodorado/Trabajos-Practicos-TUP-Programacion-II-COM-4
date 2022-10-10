@@ -1,0 +1,14 @@
+.navbar{
+    background-color: blueviolet;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#pie{
+    background-color: gray;
+    position: relative;
+    top: 150px;
+    height: 50px;
+}
