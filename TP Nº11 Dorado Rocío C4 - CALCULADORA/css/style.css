@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #deeaee;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    background-color: #b1cbbb;
+    width: 500px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#num1{
+    width: 50px;
+}
+
+#num2{
+    width: 50px;
+}
+
+#operacion{
+    width: 50px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EFECTOS*/
+
+#suma:hover{
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+
+#resta:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#multiplicacion:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#division:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width: 530px){
+   .container{
+    position: relative;
+    top: 150px;
+    width: 300px;
+   }
+
+   #label{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+
+   #num1{
+    position: relative;
+    left: 100px;
+    top: 10px;
+   }
+   #num2{
+    position: relative;
+    left: 100px;
+    top: 10px;
+   }
+
+   .botones{
+    position: relative;
+    top: 10px;
+   }
+
+   .resultado{
+    position: relative;
+    top: 10px;
+    }
+    
+    #operacion{
+        position: relative;
+        left: 5px;
+    }
+   
+}
