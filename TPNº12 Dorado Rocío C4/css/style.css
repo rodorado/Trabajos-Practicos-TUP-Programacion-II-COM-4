@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+
+
+body{
+    background-color: #b2e2f2;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    background-color: #ffe4e1;
+    width: 650px;
+}
+
+.imagen{
+    box-shadow: 2px 1px 15px -1px #000000;
+    transition: 1s;
+}
+
+#imagen{
+    width: 500px;
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 0.5s;
+}
+
+#imagen:hover{
+    filter: grayscale(0);
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#peso{
+    width: 50px;
+}
+
+#altura{
+    width: 50px;
+}
+
+#operacion{
+    width: 70px;
+    position: relative;
+    left: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EFECTOS*/
+
+#calcular:hover{
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+
+
+/*RESPONSIVE*/
+
+@media(max-width: 530px){
+   .container{
+    position: relative;
+    top: 50px;
+    width: 300px;
+   }
+
+   #imagen{
+    width: 270px;
+   }
+
+   #label{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+
+   #peso{
+    position: relative;
+    left: 100px;
+    top: 10px;
+   }
+   #altura{
+    position: relative;
+    left: 100px;
+    top: 10px;
+   }
+
+   .botones{
+    position: relative;
+    top: 10px;
+   }
+
+   .resultado{
+    position: relative;
+    top: 10px;
+    }
+    
+    #operacion{
+        position: relative;
+        left: 5px;
+    }
+   
+}
