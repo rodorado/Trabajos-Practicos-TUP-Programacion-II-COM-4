@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>TP N°13 Dorado Rocío</title>
+  </head>
+  <body>
+    <div class="container rounded-3">
+      <form>
+        <!--TITULO-->
+        <div class="titulo mt-3 mb-5" id="titulo">
+          <h3>Calculadora de tablas de multiplicar</h3>
+        </div>
+        <!--INPUT-->
+        <label for="numeroIngresado" id="label">
+          ¿Que tabla quieres generar?</label
+        >
+        <input type="text" id="numeroIngresado" />
+        <button
+          type="button"
+          class="btn btn-dark me-4 mt-4"
+          id="btnSubmit"
+          style="position: relative; left: 20px; bottom: 15px"
+        >
+          Generar tabla
+        </button>
+        <!--RESULTADO-->
+        <ul>
+          <li>
+            <button class="numResultado" id="resultadoUno"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoDos"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoTres"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoCuatro"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoCinco"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoSeis"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoSiete"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoOcho"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoNueve"></button>
+          </li>
+          <li>
+            <button class="numResultado" id="resultadoDiez"></button>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
