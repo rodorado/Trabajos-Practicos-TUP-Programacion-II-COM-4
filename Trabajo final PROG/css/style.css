@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+
+
+body{
+    background-color: white;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    background-color: #ffffec;
+    width: 650px;
+    height: 600px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: relative;
+    bottom: 150px;
+    width: 650px;
+    background-color: #95b8f6;
+    height: 140px;
+    border-radius: 30px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonCatalogo{
+    position: relative;
+    /*bottom: 205px;*/
+    bottom: 230px;
+    left: 115px;
+    background-color: #95b8f6;
+    width: 100px;
+    height: 50px;
+}
+
+#botonPrestar{
+    position: relative;
+    /*bottom: 218px;*/
+    bottom: 241px;
+    left: 165px;
+    background-color: #95b8f6;
+    width: 100px;
+    height: 50px;
+}
+
+#botonPrestados{
+    position: relative;
+    /*bottom: 229px;*/
+    bottom: 253px;
+    left: 213px;
+    background-color: #95b8f6;
+    width: 100px;
+    height: 50px;
+}
+
+/*PAGINA CATALOGO*/
+.catalogoContainer{
+    position: relative;
+    bottom: 120px;
+    right: 250px;
+}
+
+#textCatalogo{
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    font-size: 20px;
+}
+
+#catalogo{
+    position: relative;
+    top: 20px;
+}
+
+
+/*PAGINA PRESTAR*/
+.prestarContainer{
+    position: relative;
+    bottom: 120px;
+    right: 250px;
+}
+
+#textPrestar{
+    position: relative;
+    bottom: 10px;
+    left: 155px;
+    font-size: 20px;
+}
+
+#prestar{
+    position: relative;
+    top: 20px;
+}
+
+/*PRESTADOS*/
+.prestadosContainer{
+    position: relative;
+    bottom: 120px;
+    right: 250px;
+}
+
+#textPrestados{
+    position: relative;
+    bottom: 10px;
+    left: 155px;
+    font-size: 20px;
+}
+
+#prestados{
+    position: relative;
+    top: 20px;
+}
+
+
+
+/*EFECTOS*/
+
+#botonCatalogo:hover{
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+#botonPrestar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+ }
+ #botonPrestados:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+ }
+

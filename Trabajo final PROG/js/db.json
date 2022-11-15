@@ -1,0 +1,56 @@
+{
+    "libros": [
+      {
+        "id": 1,
+        "titulo": "Sherlock Holmes"
+      },
+      {
+        "id": 2,
+        "titulo": "La guerra de los mundos"
+      },
+      {
+        "id": 3,
+        "titulo": "Frankenstein"
+      },
+      {
+        "titulo": "Harry Potter",
+        "id": 4
+      },
+      {
+        "titulo": "Harry Potter 2",
+        "id": 5
+      },
+      {
+        "titulo": "Harry Potter 3",
+        "id": 6
+      },
+      {
+        "titulo": "Harry Potter 4",
+        "id": 7
+      }
+    ],
+    "clientes": [
+      {
+        "nombre": "Joaquin Gonzalez",
+        "id": 1
+      },
+      {
+        "nombre": "Rocio Dorado",
+        "id": 2
+      },
+      {
+        "nombre": "Ignacio Cuba Timo",
+        "id": 3
+      }
+    ],
+    "prestamo": [
+      {
+        "id": 1,
+        "librosId": 1,
+        "clientesId": 2,
+        "fechaPrestamo": "13/11/22",
+        "fechaDevolucion": ""
+      }
+    ]
+  }
+  
