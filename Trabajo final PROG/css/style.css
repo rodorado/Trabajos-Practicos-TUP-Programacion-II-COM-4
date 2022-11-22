@@ -13,11 +13,12 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 50px;
+    top: 20px;
     background-color: #ffffec;
     width: 650px;
-    height: 600px;
+    height: 700px;
 }
+
 
 #titulo{
     display: flex;
@@ -47,7 +48,7 @@ body{
     height: 50px;
 }
 
-#botonPrestar{
+#botonAlumno{
     position: relative;
     /*bottom: 218px;*/
     bottom: 241px;
@@ -67,43 +68,39 @@ body{
     height: 50px;
 }
 
-/*PAGINA CATALOGO*/
-.catalogoContainer{
+
+/*PAGINA ALUMNO*/
+.alumnoContainer{
     position: relative;
     bottom: 120px;
     right: 250px;
 }
 
-#textCatalogo{
+#textAlumno{
     position: relative;
-    bottom: 10px;
-    left: 150px;
+    bottom: 100px;
+    right: 70px;
     font-size: 20px;
 }
 
-#catalogo{
+#nombreAlumno{
     position: relative;
-    top: 20px;
+    bottom: 70px;
+    right: 300px;
 }
 
-
-/*PAGINA PRESTAR*/
-.prestarContainer{
+#dniAlumno{
     position: relative;
-    bottom: 120px;
-    right: 250px;
+    bottom: 40px;
+    right: 300px;
 }
 
-#textPrestar{
+#botonAgregarAlumno{
     position: relative;
-    bottom: 10px;
-    left: 155px;
-    font-size: 20px;
-}
-
-#prestar{
-    position: relative;
-    top: 20px;
+    bottom: 110px;
+    background-color: #a7b3c9;
+    width: 100px;
+    height: 50px;
 }
 
 /*PRESTADOS*/
@@ -111,6 +108,12 @@ body{
     position: relative;
     bottom: 120px;
     right: 250px;
+}
+
+.selectContainer{
+    position: relative;
+    bottom: 40px;
+    right: 300px;
 }
 
 #textPrestados{
@@ -125,6 +128,26 @@ body{
     top: 20px;
 }
 
+#sLibros{
+    position: relative;
+    top: 20px;
+    right: 80px;
+}
+
+#sAlumnos{
+  position: relative;
+  right: 80px;
+}
+
+#botonPrestar{
+    position: relative;
+    left: 120px;
+    bottom: 70px;
+    background-color: #a7b3c9;
+    width: 100px;
+    height: 50px;
+}
+
 
 
 /*EFECTOS*/
@@ -133,7 +156,7 @@ body{
    transform: scale(1.1);
    transition: 0.3s;
 }
-#botonPrestar:hover{
+#botonAlumno:hover{
     transform: scale(1.1);
     transition: 0.3s;
  }
@@ -141,4 +164,18 @@ body{
     transform: scale(1.1);
     transition: 0.3s;
  }
+#botonAgregarLibro:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#botonAgregarAlumno:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#botonPrestar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 

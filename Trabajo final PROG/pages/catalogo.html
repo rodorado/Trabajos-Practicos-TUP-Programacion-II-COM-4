@@ -12,13 +12,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/catalogo.css">
     <title>Biblioteca</title>
   </head>
   <body>
     <main>
       <div class="container rounded-3">
-        <form>
           <!--TITULO-->
+          <form>
           <div class="titulo mt-3 mb-5" id="titulo">
             <h2>BIBLIOTECA</h2>
           </div>
@@ -27,10 +28,10 @@
             <a href="../pages/catalogo.html"><button type="button" class="btn me-4" id="botonCatalogo">
               Catálogo
             </button></a>
-          <!--BOTÓN PRESTAR-->
+          <!--BOTÓN ALUMNOS-->
           <div class="botones mt-4">
-            <a href="../pages/prestar.html"><button type="button" class="btn me-4" id="botonPrestar">
-              Prestar
+            <a href="../pages/alumnos.html"><button type="button" class="btn me-4" id="botonAlumno">
+              Alumnos
             </button></a>
           <!--BOTÓN PRESTADOS-->
           <div class="botones mt-4">
@@ -39,14 +40,17 @@
             </button></a>
           </div>
           <!--CATÁLOGO DISPONIBLE-->
-          <div class="catalogoContainer mt-4 mb-4">
-            <label for="catalogo" id="textCatalogo"> Catálogo disponible</label>
-            <input type="text" id="catalogo" placeholder="Nombre del libro"/>
+          <div class="catalogoContainer mt-4 mb-4" id="catalogoContainer">
+           
+            <input type="text" id="nombreLibro" placeholder="Nombre del libro"/>
+            <input type="text" id="autorLibro" placeholder="Autor"/><label for="catalogo" id="textCatalogo">📚 Catálogo disponible</label>
+            <button type="button" class="btn me-4" id="botonAgregarLibro" onclick="agregar()">Agregar</button>
           </div>
           </div>
         </form>
+       
       </div>
     </main>
-    <script src="../js/app.js" defer></script>
+    <script src="../js/catalogo.js" defer></script>
   </body>
 </html>

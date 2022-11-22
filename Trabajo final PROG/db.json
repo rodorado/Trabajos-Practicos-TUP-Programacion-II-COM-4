@@ -1,0 +1,50 @@
+{
+  "catalogo": [
+    {
+      "id": 1,
+      "libro": "El principito",
+      "autor": "Saint-Exupéry"
+    },
+    {
+      "id": 2,
+      "libro": "La teoria del Todo",
+      "autor": "Stephen Hawking"
+    },
+    {
+      "id": 3,
+      "libro": "Sobre la teoria de la relatvidad espacial y general",
+      "autor": "Albert Einstein"
+    },
+    {
+      "libro": "",
+      "autor": "",
+      "id": 4
+    }
+  ],
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Rocío Dorado",
+      "dni": "41961187"
+    },
+    {
+      "id": 2,
+      "nombre": "Kim Namjooon",
+      "dni": "40596678"
+    },
+    {
+      "id": 3,
+      "nombre": "Park Jimin",
+      "dni": "41857745"
+    }
+  ],
+  "prestados": [
+    {
+      "id": 1,
+      "librosId": 1,
+      "alumnoId": 2,
+      "fechaPrestamo": "10/11/22",
+      "fechaDevolucion": ""
+    }
+  ]
+}

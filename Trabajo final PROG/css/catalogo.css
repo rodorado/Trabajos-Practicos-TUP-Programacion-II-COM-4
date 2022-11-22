@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    background-color: #ffffec;
+    width: 650px;
+    height: 950px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: relative;
+    bottom: 150px;
+    width: 650px;
+    background-color: #95b8f6;
+    height: 140px;
+    border-radius: 30px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonCatalogo{
+    position: relative;
+    /*bottom: 205px;*/
+    bottom: 380px;
+    left: 115px;
+    background-color: #95b8f6;
+    width: 100px;
+    height: 50px;
+}
+
+#botonAlumno{
+    position: relative;
+    /*bottom: 218px;*/
+    bottom: 391px;
+    left: 165px;
+    background-color: #95b8f6;
+    width: 100px;
+    height: 50px;
+}
+
+#botonPrestados{
+    position: relative;
+    /*bottom: 229px;*/
+    bottom: 403px;
+    left: 213px;
+    background-color: #95b8f6;
+    width: 100px;
+    height: 50px;
+}
+
+/*PAGINA CATALOGO*/
+.catalogoContainer{
+    position: relative;
+    bottom: 150px;
+    right: 250px;
+}
+
+#textCatalogo{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 20px;
+}
+
+
+#nombreLibro{
+    position: relative;
+    top: 15px;
+}
+
+#autorLibro{
+    position: relative;
+    top: 25px;
+}
+
+#botonAgregarLibro{
+    position: relative;
+    left: 300px;
+    bottom: 65px;
+    background-color: #a7b3c9;
+    width: 100px;
+    height: 50px;
+}

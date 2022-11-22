@@ -24,26 +24,59 @@
           </div>
           <!--BOTÓN CATÁLOGO-->
           <div class="botones mt-4">
-            <a href="../pages/catalogo.html"><button type="button" class="btn me-4" id="botonCatalogo">
-              Catálogo
-            </button></a>
-          <!--BOTÓN PRESTAR-->
-          <div class="botones mt-4">
-            <a href="../pages/prestar.html"><button type="button" class="btn me-4" id="botonPrestar">
-              Prestar
-            </button></a>
-            
-          <!--BOTÓN PRESTADOS-->
-          <div class="botones mt-4">
-            <a href="../pages/prestados.html"><button type="button" class="btn me-4" id="botonPrestados">
-              Prestados
-            </button></a>
-          </div>
-          <!--LIBROS PRESTADOS-->
-          <div class="prestadosContainer mt-4 mb-4">
-            <label for="prestados" id="textPrestados"> Libros prestados</label>
-            <input type="text" id="prestados" />
-          </div>
+            <a href="../pages/catalogo.html"
+              ><button type="button" class="btn me-4" id="botonCatalogo">
+                Catálogo
+              </button></a
+            >
+            <!--BOTÓN PRESTAR-->
+            <div class="botones mt-4">
+              <a href="../pages/alumnos.html"
+                ><button type="button" class="btn me-4" id="botonAlumno">
+                  Alumnos
+                </button></a
+              >
+
+              <!--BOTÓN PRESTADOS-->
+              <div class="botones mt-4">
+                <a href="../pages/prestados.html"
+                  ><button type="button" class="btn me-4" id="botonPrestados">
+                    Prestados
+                  </button></a
+                >
+              </div>
+              <!--LIBROS PRESTADOS-->
+              <div class="prestadosContainer mt-4 mb-4">
+                <label for="prestados" id="textPrestados"> Prestamos</label>
+              </div>
+              <div class="selectContainer mt-4 mb-4">
+                <select
+                  class="form-select"
+                  aria-label="Default select example"
+                  id="sLibros"
+                >
+                  <option selected>Libros</option>
+                  <option value="value1">One</option>
+                  <option value="value2">Two</option>
+                  <option value="value3">Three</option>
+                </select>
+                <br />
+                <br />
+                <select
+                  class="form-select"
+                  aria-label="Default select example"
+                  id="sAlumnos"
+                >
+                  <option selected>Alumnos</option>
+                  <option value="value1">One</option>
+                  <option value="value2">Two</option>
+                  <option value="value3">Three</option>
+                </select>
+                <button type="button" class="btn me-4" id="botonPrestar">
+                  Prestar
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
